@@ -1,0 +1,99 @@
+body {
+  font-family: 'Helvetica';
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0.5rem 0;
+}
+h1 {
+  font-size: 1.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+}
+h3 {
+  font-size: 1rem;
+}
+a {
+  text-decoration: none;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.row.center {
+  align-items: center;
+}
+.col-1 {
+  flex: 1;
+}
+.col-2 {
+  flex: 2;
+}
+.block {
+  background-color: #e0e0e0;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+.small{
+  max-height: 8em;
+}
+button {
+  font-size: 0.8rem;
+  padding: 0.2rem;
+  margin: 0.1rem;
+  border-radius: 0.5rem;
+  border: 0.1rem #404040 solid;
+  background-color: #f0c040;
+  width: 100%;
+  cursor: pointer;
+}
+.row-item{
+  padding:0 10px;
+}
+
+.btns{
+  display: flex;
+  justify-content: center;
+}
+.add{
+  background-color: #40c040;
+}
+.remove{
+  background-color: #c04040;
+}
+.head{
+  font-weight: bolder;
+}
+.row p{
+  margin-bottom: 0;
+  
+}
+aside button{
+  width: 50%;
+  height: 70%;
+}
+
+main{
+  text-align: center;
+}
+span{
+  background-color: #c04040;
+  color: white;
+  border-radius: 50%;
+  font-size: 13px;
+  text-align: center;
+  position: absolute;
+  height: 15px;
+  width: 15px;
+}
+@media (max-width:600px) {
+  .block .row{
+    display: flex;
+    flex-direction: column;
+  }
+}
